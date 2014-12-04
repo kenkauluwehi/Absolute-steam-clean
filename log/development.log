@@ -1,0 +1,1785 @@
+
+
+Started GET "/" for 127.0.0.1 at 2014-12-02 23:28:14 -1000
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /Users/kenkauluwehi/.rvm/gems/ruby-2.0.0-p247/gems/railties-4.0.0/lib/rails/templates/rails/welcome/index.html.erb (1.8ms)
+Completed 200 OK in 27ms (Views: 9.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-12-03 15:34:13 -1000
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /Users/kenkauluwehi/.rvm/gems/ruby-2.0.0-p247/gems/railties-4.0.0/lib/rails/templates/rails/welcome/index.html.erb (1.8ms)
+Completed 200 OK in 30ms (Views: 10.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2014-12-03 19:10:29 -1000
+
+ActionController::RoutingError (No route matches [GET] "/home"):
+  actionpack (4.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `block in call'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.0) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  railties (4.0.0) lib/rails/engine.rb:511:in `call'
+  railties (4.0.0) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/kenkauluwehi/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /Users/kenkauluwehi/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /Users/kenkauluwehi/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/kenkauluwehi/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+  Rendered /Users/kenkauluwehi/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.8ms)
+  Rendered /Users/kenkauluwehi/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (7.5ms)
+  Rendered /Users/kenkauluwehi/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (42.4ms)
+
+
+Started GET "/pages/home" for 127.0.0.1 at 2014-12-03 19:10:54 -1000
+
+ActionController::RoutingError (No route matches [GET] "/pages/home"):
+  actionpack (4.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `block in call'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.0) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  railties (4.0.0) lib/rails/engine.rb:511:in `call'
+  railties (4.0.0) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/kenkauluwehi/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /Users/kenkauluwehi/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /Users/kenkauluwehi/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/kenkauluwehi/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+  Rendered /Users/kenkauluwehi/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.8ms)
+  Rendered /Users/kenkauluwehi/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (0.8ms)
+  Rendered /Users/kenkauluwehi/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (14.8ms)
+
+
+Started GET "/pages/" for 127.0.0.1 at 2014-12-03 19:11:03 -1000
+
+ActionController::RoutingError (No route matches [GET] "/pages"):
+  actionpack (4.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `block in call'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.0) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  railties (4.0.0) lib/rails/engine.rb:511:in `call'
+  railties (4.0.0) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/kenkauluwehi/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /Users/kenkauluwehi/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /Users/kenkauluwehi/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/kenkauluwehi/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+  Rendered /Users/kenkauluwehi/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.9ms)
+  Rendered /Users/kenkauluwehi/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.3ms)
+  Rendered /Users/kenkauluwehi/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (62.3ms)
+
+
+Started GET "/pages/Home" for 127.0.0.1 at 2014-12-03 19:11:59 -1000
+Processing by PagesController#Home as HTML
+  Rendered pages/Home.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 594ms (Views: 593.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-12-03 19:11:59 -1000
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at 2014-12-03 19:11:59 -1000
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-12-03 19:11:59 -1000
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2014-12-03 19:11:59 -1000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-12-03 19:11:59 -1000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-12-03 19:11:59 -1000
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-12-03 19:11:59 -1000
+
+
+Started GET "/pages/Aome" for 127.0.0.1 at 2014-12-03 19:12:13 -1000
+
+ActionController::RoutingError (No route matches [GET] "/pages/Aome"):
+  actionpack (4.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `block in call'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.0) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  railties (4.0.0) lib/rails/engine.rb:511:in `call'
+  railties (4.0.0) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/kenkauluwehi/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /Users/kenkauluwehi/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /Users/kenkauluwehi/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/kenkauluwehi/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.8ms)
+  Rendered /Users/kenkauluwehi/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.7ms)
+  Rendered /Users/kenkauluwehi/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.1ms)
+  Rendered /Users/kenkauluwehi/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (15.7ms)
+
+
+Started GET "/pages/About" for 127.0.0.1 at 2014-12-03 19:12:17 -1000
+Processing by PagesController#About as HTML
+  Rendered pages/About.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 7ms (Views: 6.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-12-03 19:54:23 -1000
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /Users/kenkauluwehi/.rvm/gems/ruby-2.0.0-p247/gems/railties-4.0.0/lib/rails/templates/rails/welcome/index.html.erb (2.3ms)
+Completed 200 OK in 29ms (Views: 11.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/Home" for 127.0.0.1 at 2014-12-03 19:54:30 -1000
+Processing by PagesController#Home as HTML
+  Rendered pages/Home.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 40ms (Views: 39.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-12-03 19:54:30 -1000
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-12-03 19:54:30 -1000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-12-03 19:54:30 -1000
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at 2014-12-03 19:54:30 -1000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-12-03 19:54:30 -1000
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2014-12-03 19:54:30 -1000
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-12-03 19:54:30 -1000
+
+
+Started GET "/pages/Home" for 127.0.0.1 at 2014-12-03 19:56:26 -1000
+Processing by PagesController#Home as HTML
+  Rendered pages/Home.html.erb within layouts/application (0.0ms)
+Completed 500 Internal Server Error in 11ms
+
+ActionView::Template::Error (undefined local variable or method `root_path' for #<#<Class:0x007fe87323cb80>:0x007fe873428a70>):
+     9: <body>
+    10: <h1>Absolute Steam Clean</h1>
+    11: <br>
+    12: <%= lint_to "Home", root_path %>
+    13: <%= lint_to "About", root_path %>
+    14: <%= lint_to "Services", root_path %>
+    15: <%= lint_to "Contact", root_path %>
+  app/views/layouts/application.html.erb:12:in `_app_views_layouts_application_html_erb__3221805086442535013_70318171457480'
+
+
+  Rendered /Users/kenkauluwehi/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+  Rendered /Users/kenkauluwehi/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered /Users/kenkauluwehi/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (12.7ms)
+
+
+Started GET "/pages/Home" for 127.0.0.1 at 2014-12-03 19:56:39 -1000
+Processing by PagesController#Home as HTML
+  Rendered pages/Home.html.erb within layouts/application (0.7ms)
+Completed 500 Internal Server Error in 66ms
+
+ActionView::Template::Error (undefined local variable or method `root_path' for #<#<Class:0x007fe7e38ae5d0>:0x007fe7e385b448>):
+     9: <body>
+    10: <h1>Absolute Steam Clean</h1>
+    11: <br>
+    12: <%= lint_to "Home", root_path %>
+    13: <%= lint_to "About", root_path %>
+    14: <%= lint_to "Services", root_path %>
+    15: <%= lint_to "Contact", root_path %>
+  app/views/layouts/application.html.erb:12:in `_app_views_layouts_application_html_erb__3958458198234057167_70316967785700'
+
+
+  Rendered /Users/kenkauluwehi/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.7ms)
+  Rendered /Users/kenkauluwehi/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.6ms)
+  Rendered /Users/kenkauluwehi/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (7.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-12-03 19:56:47 -1000
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /Users/kenkauluwehi/.rvm/gems/ruby-2.0.0-p247/gems/railties-4.0.0/lib/rails/templates/rails/welcome/index.html.erb (0.7ms)
+Completed 200 OK in 3ms (Views: 2.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/Home" for 127.0.0.1 at 2014-12-03 19:56:53 -1000
+Processing by PagesController#Home as HTML
+  Rendered pages/Home.html.erb within layouts/application (0.1ms)
+Completed 500 Internal Server Error in 10ms
+
+ActionView::Template::Error (undefined local variable or method `root_path' for #<#<Class:0x007fe7e38ae5d0>:0x007fe7e6aa3658>):
+     9: <body>
+    10: <h1>Absolute Steam Clean</h1>
+    11: <br>
+    12: <%= lint_to "Home", root_path %>
+    13: <%= lint_to "About", root_path %>
+    14: <%= lint_to "Services", root_path %>
+    15: <%= lint_to "Contact", root_path %>
+  app/views/layouts/application.html.erb:12:in `_app_views_layouts_application_html_erb__3958458198234057167_70316967785700'
+
+
+  Rendered /Users/kenkauluwehi/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.8ms)
+  Rendered /Users/kenkauluwehi/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.6ms)
+  Rendered /Users/kenkauluwehi/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (7.8ms)
+
+
+Started GET "/pages/Home" for 127.0.0.1 at 2014-12-03 19:58:22 -1000
+Processing by PagesController#Home as HTML
+  Rendered pages/Home.html.erb within layouts/application (0.0ms)
+Completed 500 Internal Server Error in 10ms
+
+ActionView::Template::Error (undefined method `lint_to' for #<#<Class:0x007fe7e38ae5d0>:0x007fe7e6cbaae0>):
+     9: <body>
+    10: <h1>Absolute Steam Clean</h1>
+    11: <br>
+    12: <%= lint_to "Home", "pages/Home" %>
+    13: <%= lint_to "About Us", "pages/Home" %>
+    14: <%= lint_to "Services", "pages/Home" %>
+    15: <%= lint_to "Contact", "pages/Home" %>
+  app/views/layouts/application.html.erb:12:in `_app_views_layouts_application_html_erb__3958458198234057167_70316993158780'
+
+
+  Rendered /Users/kenkauluwehi/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.8ms)
+  Rendered /Users/kenkauluwehi/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.6ms)
+  Rendered /Users/kenkauluwehi/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (7.7ms)
+
+
+Started GET "/pages/Home" for 127.0.0.1 at 2014-12-03 19:58:23 -1000
+Processing by PagesController#Home as HTML
+  Rendered pages/Home.html.erb within layouts/application (0.1ms)
+Completed 500 Internal Server Error in 39ms
+
+ActionView::Template::Error (undefined method `lint_to' for #<#<Class:0x007fe7e38ae5d0>:0x007fe7e4950af0>):
+     9: <body>
+    10: <h1>Absolute Steam Clean</h1>
+    11: <br>
+    12: <%= lint_to "Home", "pages/Home" %>
+    13: <%= lint_to "About Us", "pages/Home" %>
+    14: <%= lint_to "Services", "pages/Home" %>
+    15: <%= lint_to "Contact", "pages/Home" %>
+  app/views/layouts/application.html.erb:12:in `_app_views_layouts_application_html_erb__3958458198234057167_70316993158780'
+
+
+  Rendered /Users/kenkauluwehi/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+  Rendered /Users/kenkauluwehi/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.1ms)
+  Rendered /Users/kenkauluwehi/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (11.1ms)
+
+
+Started GET "/pages/Home" for 127.0.0.1 at 2014-12-03 19:59:26 -1000
+Processing by PagesController#Home as HTML
+  Rendered pages/Home.html.erb within layouts/application (0.0ms)
+Completed 500 Internal Server Error in 8ms
+
+ActionView::Template::Error (undefined local variable or method `root_path' for #<#<Class:0x007fe7e38ae5d0>:0x007fe7e6a70be0>):
+     9: <body>
+    10: <h1>Absolute Steam Clean</h1>
+    11: <br>
+    12: <%= link_to "Home", root_path %>
+    13: <%= link_to "About Us", root_path %>
+    14: <%= link_to "Services", root_path %>
+    15: <%= link_to "Contact", root_path %>
+  app/views/layouts/application.html.erb:12:in `_app_views_layouts_application_html_erb__3958458198234057167_70316991955040'
+
+
+  Rendered /Users/kenkauluwehi/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+  Rendered /Users/kenkauluwehi/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+  Rendered /Users/kenkauluwehi/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (8.4ms)
+
+
+Started GET "/pages/Home" for 127.0.0.1 at 2014-12-03 20:04:22 -1000
+Processing by PagesController#Home as HTML
+  Rendered pages/Home.html.erb within layouts/application (0.7ms)
+Completed 500 Internal Server Error in 71ms
+
+ActionView::Template::Error (undefined local variable or method `root_path' for #<#<Class:0x007fdd7b594380>:0x007fdd7b59e3a8>):
+     9: <body>
+    10: <h1>Absolute Steam Clean</h1>
+    11: <br>
+    12: <%= link_to "Home", root_path %>
+    13: <%= link_to "About Us", root_path %>
+    14: <%= link_to "Services", root_path %>
+    15: <%= link_to "Contact", root_path %>
+  app/views/layouts/application.html.erb:12:in `_app_views_layouts_application_html_erb__274353563152426321_70294617123900'
+
+
+  Rendered /Users/kenkauluwehi/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.8ms)
+  Rendered /Users/kenkauluwehi/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.6ms)
+  Rendered /Users/kenkauluwehi/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (7.6ms)
+
+
+Started GET "/pages/Home" for 127.0.0.1 at 2014-12-03 20:05:13 -1000
+Processing by PagesController#Home as HTML
+  Rendered pages/Home.html.erb within layouts/application (1.0ms)
+Completed 500 Internal Server Error in 66ms
+
+ActionView::Template::Error (undefined local variable or method `root_path' for #<#<Class:0x007f921157bf70>:0x007f921157a0a8>):
+     9: <body>
+    10: <h1>Absolute Steam Clean</h1>
+    11: <br>
+    12: <%= link_to "Home", root_path %>
+    13: <%= link_to "About Us", root_path %>
+    14: <%= link_to "Services", root_path %>
+    15: <%= link_to "Contact", root_path %>
+  app/views/layouts/application.html.erb:12:in `_app_views_layouts_application_html_erb___2558844843469820306_70132666583740'
+
+
+  Rendered /Users/kenkauluwehi/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.7ms)
+  Rendered /Users/kenkauluwehi/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.6ms)
+  Rendered /Users/kenkauluwehi/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (7.4ms)
+
+
+Started GET "/pages/Home" for 127.0.0.1 at 2014-12-03 20:05:15 -1000
+Processing by PagesController#Home as HTML
+  Rendered pages/Home.html.erb within layouts/application (0.1ms)
+Completed 500 Internal Server Error in 10ms
+
+ActionView::Template::Error (undefined local variable or method `root_path' for #<#<Class:0x007f921157bf70>:0x007f9211648ae8>):
+     9: <body>
+    10: <h1>Absolute Steam Clean</h1>
+    11: <br>
+    12: <%= link_to "Home", root_path %>
+    13: <%= link_to "About Us", root_path %>
+    14: <%= link_to "Services", root_path %>
+    15: <%= link_to "Contact", root_path %>
+  app/views/layouts/application.html.erb:12:in `_app_views_layouts_application_html_erb___2558844843469820306_70132666583740'
+
+
+  Rendered /Users/kenkauluwehi/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+  Rendered /Users/kenkauluwehi/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+  Rendered /Users/kenkauluwehi/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (9.5ms)
+
+
+Started GET "/pages/Home" for 127.0.0.1 at 2014-12-03 20:05:16 -1000
+Processing by PagesController#Home as HTML
+  Rendered pages/Home.html.erb within layouts/application (0.0ms)
+Completed 500 Internal Server Error in 8ms
+
+ActionView::Template::Error (undefined local variable or method `root_path' for #<#<Class:0x007f921157bf70>:0x007f92112396a0>):
+     9: <body>
+    10: <h1>Absolute Steam Clean</h1>
+    11: <br>
+    12: <%= link_to "Home", root_path %>
+    13: <%= link_to "About Us", root_path %>
+    14: <%= link_to "Services", root_path %>
+    15: <%= link_to "Contact", root_path %>
+  app/views/layouts/application.html.erb:12:in `_app_views_layouts_application_html_erb___2558844843469820306_70132666583740'
+
+
+  Rendered /Users/kenkauluwehi/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.8ms)
+  Rendered /Users/kenkauluwehi/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.6ms)
+  Rendered /Users/kenkauluwehi/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (8.0ms)
+
+
+Started GET "/pages/Home" for 127.0.0.1 at 2014-12-03 20:05:17 -1000
+Processing by PagesController#Home as HTML
+  Rendered pages/Home.html.erb within layouts/application (0.0ms)
+Completed 500 Internal Server Error in 8ms
+
+ActionView::Template::Error (undefined local variable or method `root_path' for #<#<Class:0x007f921157bf70>:0x007f92115d1268>):
+     9: <body>
+    10: <h1>Absolute Steam Clean</h1>
+    11: <br>
+    12: <%= link_to "Home", root_path %>
+    13: <%= link_to "About Us", root_path %>
+    14: <%= link_to "Services", root_path %>
+    15: <%= link_to "Contact", root_path %>
+  app/views/layouts/application.html.erb:12:in `_app_views_layouts_application_html_erb___2558844843469820306_70132666583740'
+
+
+  Rendered /Users/kenkauluwehi/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.7ms)
+  Rendered /Users/kenkauluwehi/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+  Rendered /Users/kenkauluwehi/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (8.1ms)
+
+
+Started GET "/pages/Home" for 127.0.0.1 at 2014-12-03 20:05:17 -1000
+Processing by PagesController#Home as HTML
+  Rendered pages/Home.html.erb within layouts/application (0.1ms)
+Completed 500 Internal Server Error in 12ms
+
+ActionView::Template::Error (undefined local variable or method `root_path' for #<#<Class:0x007f921157bf70>:0x007f9215023b78>):
+     9: <body>
+    10: <h1>Absolute Steam Clean</h1>
+    11: <br>
+    12: <%= link_to "Home", root_path %>
+    13: <%= link_to "About Us", root_path %>
+    14: <%= link_to "Services", root_path %>
+    15: <%= link_to "Contact", root_path %>
+  app/views/layouts/application.html.erb:12:in `_app_views_layouts_application_html_erb___2558844843469820306_70132666583740'
+
+
+  Rendered /Users/kenkauluwehi/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (27.5ms)
+  Rendered /Users/kenkauluwehi/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered /Users/kenkauluwehi/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (35.8ms)
+
+
+Started GET "/pages/Home" for 127.0.0.1 at 2014-12-03 20:05:18 -1000
+Processing by PagesController#Home as HTML
+  Rendered pages/Home.html.erb within layouts/application (0.0ms)
+Completed 500 Internal Server Error in 9ms
+
+ActionView::Template::Error (undefined local variable or method `root_path' for #<#<Class:0x007f921157bf70>:0x007f9212237bd8>):
+     9: <body>
+    10: <h1>Absolute Steam Clean</h1>
+    11: <br>
+    12: <%= link_to "Home", root_path %>
+    13: <%= link_to "About Us", root_path %>
+    14: <%= link_to "Services", root_path %>
+    15: <%= link_to "Contact", root_path %>
+  app/views/layouts/application.html.erb:12:in `_app_views_layouts_application_html_erb___2558844843469820306_70132666583740'
+
+
+  Rendered /Users/kenkauluwehi/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.8ms)
+  Rendered /Users/kenkauluwehi/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.6ms)
+  Rendered /Users/kenkauluwehi/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (8.1ms)
+
+
+Started GET "/pages/Home" for 127.0.0.1 at 2014-12-03 20:05:18 -1000
+Processing by PagesController#Home as HTML
+  Rendered pages/Home.html.erb within layouts/application (0.0ms)
+Completed 500 Internal Server Error in 11ms
+
+ActionView::Template::Error (undefined local variable or method `root_path' for #<#<Class:0x007f921157bf70>:0x007f9211568920>):
+     9: <body>
+    10: <h1>Absolute Steam Clean</h1>
+    11: <br>
+    12: <%= link_to "Home", root_path %>
+    13: <%= link_to "About Us", root_path %>
+    14: <%= link_to "Services", root_path %>
+    15: <%= link_to "Contact", root_path %>
+  app/views/layouts/application.html.erb:12:in `_app_views_layouts_application_html_erb___2558844843469820306_70132666583740'
+
+
+  Rendered /Users/kenkauluwehi/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.4ms)
+  Rendered /Users/kenkauluwehi/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+  Rendered /Users/kenkauluwehi/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (11.2ms)
+
+
+Started GET "/pages/Home" for 127.0.0.1 at 2014-12-03 20:05:18 -1000
+Processing by PagesController#Home as HTML
+  Rendered pages/Home.html.erb within layouts/application (0.1ms)
+Completed 500 Internal Server Error in 10ms
+
+ActionView::Template::Error (undefined local variable or method `root_path' for #<#<Class:0x007f921157bf70>:0x007f921171b9c0>):
+     9: <body>
+    10: <h1>Absolute Steam Clean</h1>
+    11: <br>
+    12: <%= link_to "Home", root_path %>
+    13: <%= link_to "About Us", root_path %>
+    14: <%= link_to "Services", root_path %>
+    15: <%= link_to "Contact", root_path %>
+  app/views/layouts/application.html.erb:12:in `_app_views_layouts_application_html_erb___2558844843469820306_70132666583740'
+
+
+  Rendered /Users/kenkauluwehi/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.5ms)
+  Rendered /Users/kenkauluwehi/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (27.7ms)
+  Rendered /Users/kenkauluwehi/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (39.2ms)
+
+
+Started GET "/pages/Home" for 127.0.0.1 at 2014-12-03 20:05:18 -1000
+Processing by PagesController#Home as HTML
+  Rendered pages/Home.html.erb within layouts/application (0.1ms)
+Completed 500 Internal Server Error in 12ms
+
+ActionView::Template::Error (undefined local variable or method `root_path' for #<#<Class:0x007f921157bf70>:0x007f9210ab3930>):
+     9: <body>
+    10: <h1>Absolute Steam Clean</h1>
+    11: <br>
+    12: <%= link_to "Home", root_path %>
+    13: <%= link_to "About Us", root_path %>
+    14: <%= link_to "Services", root_path %>
+    15: <%= link_to "Contact", root_path %>
+  app/views/layouts/application.html.erb:12:in `_app_views_layouts_application_html_erb___2558844843469820306_70132666583740'
+
+
+  Rendered /Users/kenkauluwehi/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.6ms)
+  Rendered /Users/kenkauluwehi/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.3ms)
+  Rendered /Users/kenkauluwehi/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (12.2ms)
+
+
+Started GET "/pages/Home" for 127.0.0.1 at 2014-12-03 20:05:19 -1000
+Processing by PagesController#Home as HTML
+  Rendered pages/Home.html.erb within layouts/application (0.0ms)
+Completed 500 Internal Server Error in 7ms
+
+ActionView::Template::Error (undefined local variable or method `root_path' for #<#<Class:0x007f921157bf70>:0x007f92115486c0>):
+     9: <body>
+    10: <h1>Absolute Steam Clean</h1>
+    11: <br>
+    12: <%= link_to "Home", root_path %>
+    13: <%= link_to "About Us", root_path %>
+    14: <%= link_to "Services", root_path %>
+    15: <%= link_to "Contact", root_path %>
+  app/views/layouts/application.html.erb:12:in `_app_views_layouts_application_html_erb___2558844843469820306_70132666583740'
+
+
+  Rendered /Users/kenkauluwehi/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.8ms)
+  Rendered /Users/kenkauluwehi/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+  Rendered /Users/kenkauluwehi/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (8.2ms)
+
+
+Started GET "/pages/Home" for 127.0.0.1 at 2014-12-03 20:05:30 -1000
+Processing by PagesController#Home as HTML
+  Rendered pages/Home.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 4ms (Views: 3.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-12-03 20:05:30 -1000
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at 2014-12-03 20:05:30 -1000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-12-03 20:05:30 -1000
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-12-03 20:05:30 -1000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-12-03 20:05:30 -1000
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-12-03 20:05:30 -1000
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2014-12-03 20:05:30 -1000
+
+
+Started GET "/" for 127.0.0.1 at 2014-12-03 20:05:33 -1000
+Processing by PagesController#Home as HTML
+  Rendered pages/Home.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 5ms (Views: 4.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-12-03 20:05:34 -1000
+Processing by PagesController#Home as HTML
+  Rendered pages/Home.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 4ms (Views: 3.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-12-03 20:05:35 -1000
+Processing by PagesController#Home as HTML
+  Rendered pages/Home.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 4ms (Views: 3.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-12-03 20:05:35 -1000
+Processing by PagesController#Home as HTML
+  Rendered pages/Home.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 3ms (Views: 3.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-12-03 20:05:37 -1000
+Processing by PagesController#Home as HTML
+  Rendered pages/Home.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 5ms (Views: 4.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-12-03 20:05:38 -1000
+Processing by PagesController#Home as HTML
+  Rendered pages/Home.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 5ms (Views: 4.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-12-03 20:05:38 -1000
+Processing by PagesController#Home as HTML
+  Rendered pages/Home.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 4ms (Views: 4.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-12-03 20:05:39 -1000
+Processing by PagesController#Home as HTML
+  Rendered pages/Home.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 4ms (Views: 3.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-12-03 20:08:27 -1000
+Processing by PagesController#Home as HTML
+  Rendered pages/Home.html.erb within layouts/application (0.1ms)
+Completed 500 Internal Server Error in 10ms
+
+ActionView::Template::Error (undefined local variable or method `pages_about_path' for #<#<Class:0x007f92150c8ad8>:0x007f92116287e8>):
+    10: <h1>Absolute Steam Clean</h1>
+    11: <br>
+    12: <%= link_to "Home", root_path %>
+    13: <%= link_to "About Us", pages_about_path %>
+    14: <%= link_to "Services", root_path %>
+    15: <%= link_to "Contact", root_path %>
+    16: <%= link_to "Pricing", root_path %>
+  app/views/layouts/application.html.erb:13:in `_app_views_layouts_application_html_erb___2558844843469820306_70132666829420'
+
+
+  Rendered /Users/kenkauluwehi/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+  Rendered /Users/kenkauluwehi/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.6ms)
+  Rendered /Users/kenkauluwehi/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (10.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-12-03 20:17:53 -1000
+Processing by PagesController#Home as HTML
+  Rendered pages/Home.html.erb within layouts/application (0.7ms)
+Completed 500 Internal Server Error in 317ms
+
+ActionView::Template::Error (undefined local variable or method `pages_about_path' for #<#<Class:0x007fa38d2576b8>:0x007fa38d255b10>):
+    10: <h1>Absolute Steam Clean</h1>
+    11: <br>
+    12: <%= link_to "Home", root_path %>
+    13: <%= link_to "About Us", pages_about_path %>
+    14: <%= link_to "Services", pages_services_path %>
+    15: <%= link_to "Contact", pages_contact_path %>
+    16: <%= link_to "Pricing", pages_pricing_path %>
+  app/views/layouts/application.html.erb:13:in `_app_views_layouts_application_html_erb__16396163953708837_70170212527500'
+
+
+  Rendered /Users/kenkauluwehi/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.8ms)
+  Rendered /Users/kenkauluwehi/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.6ms)
+  Rendered /Users/kenkauluwehi/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (8.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-12-03 20:17:55 -1000
+Processing by PagesController#Home as HTML
+  Rendered pages/Home.html.erb within layouts/application (0.0ms)
+Completed 500 Internal Server Error in 37ms
+
+ActionView::Template::Error (undefined local variable or method `pages_about_path' for #<#<Class:0x007fa38d2576b8>:0x007fa38d63c0d0>):
+    10: <h1>Absolute Steam Clean</h1>
+    11: <br>
+    12: <%= link_to "Home", root_path %>
+    13: <%= link_to "About Us", pages_about_path %>
+    14: <%= link_to "Services", pages_services_path %>
+    15: <%= link_to "Contact", pages_contact_path %>
+    16: <%= link_to "Pricing", pages_pricing_path %>
+  app/views/layouts/application.html.erb:13:in `_app_views_layouts_application_html_erb__16396163953708837_70170212527500'
+
+
+  Rendered /Users/kenkauluwehi/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.8ms)
+  Rendered /Users/kenkauluwehi/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.6ms)
+  Rendered /Users/kenkauluwehi/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (7.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-12-03 20:17:56 -1000
+Processing by PagesController#Home as HTML
+  Rendered pages/Home.html.erb within layouts/application (0.0ms)
+Completed 500 Internal Server Error in 11ms
+
+ActionView::Template::Error (undefined local variable or method `pages_about_path' for #<#<Class:0x007fa38d2576b8>:0x007fa38d457698>):
+    10: <h1>Absolute Steam Clean</h1>
+    11: <br>
+    12: <%= link_to "Home", root_path %>
+    13: <%= link_to "About Us", pages_about_path %>
+    14: <%= link_to "Services", pages_services_path %>
+    15: <%= link_to "Contact", pages_contact_path %>
+    16: <%= link_to "Pricing", pages_pricing_path %>
+  app/views/layouts/application.html.erb:13:in `_app_views_layouts_application_html_erb__16396163953708837_70170212527500'
+
+
+  Rendered /Users/kenkauluwehi/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.9ms)
+  Rendered /Users/kenkauluwehi/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+  Rendered /Users/kenkauluwehi/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (9.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-12-03 20:18:08 -1000
+Processing by PagesController#Home as HTML
+  Rendered pages/Home.html.erb within layouts/application (0.1ms)
+Completed 500 Internal Server Error in 11ms
+
+ActionView::Template::Error (undefined local variable or method `pages_services_path' for #<#<Class:0x007fa38d2576b8>:0x007fa38d6854b0>):
+    11: <br>
+    12: <%= link_to "Home", root_path %>
+    13: <%= link_to "About Us", home_about_path %>
+    14: <%= link_to "Services", pages_services_path %>
+    15: <%= link_to "Contact", pages_contact_path %>
+    16: <%= link_to "Pricing", pages_pricing_path %>
+    17: <%= link_to "Testimonials", pages_testimonials_path %>
+  app/views/layouts/application.html.erb:14:in `_app_views_layouts_application_html_erb__16396163953708837_70170214429660'
+
+
+  Rendered /Users/kenkauluwehi/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.8ms)
+  Rendered /Users/kenkauluwehi/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+  Rendered /Users/kenkauluwehi/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (8.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-12-03 20:18:20 -1000
+Processing by PagesController#Home as HTML
+  Rendered pages/Home.html.erb within layouts/application (0.0ms)
+Completed 500 Internal Server Error in 39ms
+
+ActionView::Template::Error (undefined local variable or method `pages_contact_path' for #<#<Class:0x007fa38d2576b8>:0x007fa38b599cd8>):
+    12: <%= link_to "Home", root_path %>
+    13: <%= link_to "About Us", home_about_path %>
+    14: <%= link_to "Services", home_services_path %>
+    15: <%= link_to "Contact", pages_contact_path %>
+    16: <%= link_to "Pricing", pages_pricing_path %>
+    17: <%= link_to "Testimonials", pages_testimonials_path %>
+    18: <br>
+  app/views/layouts/application.html.erb:15:in `_app_views_layouts_application_html_erb__16396163953708837_70170197161880'
+
+
+  Rendered /Users/kenkauluwehi/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+  Rendered /Users/kenkauluwehi/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+  Rendered /Users/kenkauluwehi/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (9.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-12-03 20:18:37 -1000
+Processing by PagesController#Home as HTML
+  Rendered pages/Home.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 6ms (Views: 5.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-12-03 20:18:37 -1000
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-12-03 20:18:37 -1000
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at 2014-12-03 20:18:37 -1000
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-12-03 20:18:37 -1000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-12-03 20:18:37 -1000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-12-03 20:18:37 -1000
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-12-03 20:18:37 -1000
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2014-12-03 20:18:37 -1000
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-12-03 20:18:37 -1000
+
+
+Started GET "/home/about" for 127.0.0.1 at 2014-12-03 20:18:39 -1000
+Processing by HomeController#about as HTML
+  Rendered home/about.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 6ms (Views: 4.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/services" for 127.0.0.1 at 2014-12-03 20:18:41 -1000
+Processing by HomeController#services as HTML
+  Rendered home/services.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 5ms (Views: 4.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/contact" for 127.0.0.1 at 2014-12-03 20:18:41 -1000
+Processing by HomeController#contact as HTML
+  Rendered home/contact.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 43ms (Views: 42.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/pricing" for 127.0.0.1 at 2014-12-03 20:18:42 -1000
+Processing by HomeController#pricing as HTML
+  Rendered home/pricing.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 6ms (Views: 5.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/testimonials" for 127.0.0.1 at 2014-12-03 20:18:43 -1000
+Processing by HomeController#testimonials as HTML
+  Rendered home/testimonials.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 5ms (Views: 4.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-12-03 20:18:44 -1000
+Processing by PagesController#Home as HTML
+  Rendered pages/Home.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 6ms (Views: 5.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/about" for 127.0.0.1 at 2014-12-03 20:18:50 -1000
+Processing by HomeController#about as HTML
+  Rendered home/about.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 5ms (Views: 4.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/services" for 127.0.0.1 at 2014-12-03 20:18:50 -1000
+Processing by HomeController#services as HTML
+  Rendered home/services.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 5ms (Views: 4.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/contact" for 127.0.0.1 at 2014-12-03 20:18:51 -1000
+Processing by HomeController#contact as HTML
+  Rendered home/contact.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 5ms (Views: 4.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/pricing" for 127.0.0.1 at 2014-12-03 20:18:52 -1000
+Processing by HomeController#pricing as HTML
+  Rendered home/pricing.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 5ms (Views: 4.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/testimonials" for 127.0.0.1 at 2014-12-03 20:18:52 -1000
+Processing by HomeController#testimonials as HTML
+  Rendered home/testimonials.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 4ms (Views: 3.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-12-03 20:18:54 -1000
+Processing by PagesController#Home as HTML
+  Rendered pages/Home.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 5ms (Views: 4.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/about" for 127.0.0.1 at 2014-12-03 20:18:55 -1000
+Processing by HomeController#about as HTML
+  Rendered home/about.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 5ms (Views: 4.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-12-03 20:18:58 -1000
+Processing by PagesController#Home as HTML
+  Rendered pages/Home.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 5ms (Views: 4.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-12-03 20:19:00 -1000
+Processing by PagesController#Home as HTML
+  Rendered pages/Home.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 5ms (Views: 4.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-12-03 20:19:00 -1000
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at 2014-12-03 20:19:00 -1000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-12-03 20:19:00 -1000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-12-03 20:19:00 -1000
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2014-12-03 20:19:00 -1000
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-12-03 20:19:00 -1000
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-12-03 20:19:00 -1000
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-12-03 20:19:00 -1000
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-12-03 20:19:00 -1000
+
+
+Started GET "/home/about" for 127.0.0.1 at 2014-12-03 20:19:03 -1000
+Processing by HomeController#about as HTML
+  Rendered home/about.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 5ms (Views: 4.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/services" for 127.0.0.1 at 2014-12-03 20:19:04 -1000
+Processing by HomeController#services as HTML
+  Rendered home/services.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 4ms (Views: 3.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-12-03 20:19:04 -1000
+Processing by PagesController#Home as HTML
+  Rendered pages/Home.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 4ms (Views: 3.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/services" for 127.0.0.1 at 2014-12-03 20:19:05 -1000
+Processing by HomeController#services as HTML
+  Rendered home/services.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 6ms (Views: 5.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/contact" for 127.0.0.1 at 2014-12-03 20:19:06 -1000
+Processing by HomeController#contact as HTML
+  Rendered home/contact.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 4ms (Views: 3.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/pricing" for 127.0.0.1 at 2014-12-03 20:19:07 -1000
+Processing by HomeController#pricing as HTML
+  Rendered home/pricing.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 4ms (Views: 3.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/testimonials" for 127.0.0.1 at 2014-12-03 20:19:08 -1000
+Processing by HomeController#testimonials as HTML
+  Rendered home/testimonials.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 4ms (Views: 3.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/testimonials" for 127.0.0.1 at 2014-12-03 20:23:33 -1000
+Processing by HomeController#testimonials as HTML
+  Rendered home/testimonials.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 8ms (Views: 6.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-12-03 20:23:33 -1000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-12-03 20:23:33 -1000
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-12-03 20:23:33 -1000
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at 2014-12-03 20:23:33 -1000
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-12-03 20:23:33 -1000
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-12-03 20:23:33 -1000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-12-03 20:23:33 -1000
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-12-03 20:23:33 -1000
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2014-12-03 20:23:33 -1000
+
+
+Started GET "/home/testimonials" for 127.0.0.1 at 2014-12-03 20:23:36 -1000
+Processing by HomeController#testimonials as HTML
+  Rendered home/testimonials.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 6ms (Views: 4.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-12-03 20:23:36 -1000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-12-03 20:23:36 -1000
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-12-03 20:23:36 -1000
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-12-03 20:23:36 -1000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-12-03 20:23:36 -1000
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-12-03 20:23:36 -1000
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at 2014-12-03 20:23:36 -1000
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2014-12-03 20:23:36 -1000
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-12-03 20:23:36 -1000
+
+
+Started GET "/home/testimonials" for 127.0.0.1 at 2014-12-03 20:23:37 -1000
+Processing by HomeController#testimonials as HTML
+  Rendered home/testimonials.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 5ms (Views: 4.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-12-03 20:23:37 -1000
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-12-03 20:23:37 -1000
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at 2014-12-03 20:23:37 -1000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-12-03 20:23:37 -1000
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-12-03 20:23:37 -1000
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2014-12-03 20:23:37 -1000
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-12-03 20:23:37 -1000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-12-03 20:23:37 -1000
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-12-03 20:23:37 -1000
+
+
+Started GET "/" for 127.0.0.1 at 2014-12-03 20:23:43 -1000
+Processing by PagesController#Home as HTML
+  Rendered pages/Home.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 6ms (Views: 5.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/about" for 127.0.0.1 at 2014-12-03 20:23:44 -1000
+Processing by HomeController#about as HTML
+  Rendered home/about.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 4ms (Views: 3.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/services" for 127.0.0.1 at 2014-12-03 20:23:44 -1000
+Processing by HomeController#services as HTML
+  Rendered home/services.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 4ms (Views: 3.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/contact" for 127.0.0.1 at 2014-12-03 20:23:45 -1000
+Processing by HomeController#contact as HTML
+  Rendered home/contact.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 4ms (Views: 3.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/pricing" for 127.0.0.1 at 2014-12-03 20:23:46 -1000
+Processing by HomeController#pricing as HTML
+  Rendered home/pricing.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 4ms (Views: 3.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/testimonials" for 127.0.0.1 at 2014-12-03 20:23:47 -1000
+Processing by HomeController#testimonials as HTML
+  Rendered home/testimonials.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 4ms (Views: 3.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/testimonials" for 127.0.0.1 at 2014-12-03 20:24:23 -1000
+Processing by HomeController#testimonials as HTML
+  Rendered home/testimonials.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 70ms (Views: 52.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-12-03 20:24:23 -1000
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-12-03 20:24:23 -1000
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-12-03 20:24:23 -1000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-12-03 20:24:23 -1000
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at 2014-12-03 20:24:23 -1000
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-12-03 20:24:23 -1000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-12-03 20:24:23 -1000
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2014-12-03 20:24:23 -1000
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-12-03 20:24:23 -1000
+
+
+Started GET "/home/testimonials" for 127.0.0.1 at 2014-12-03 20:24:25 -1000
+Processing by HomeController#testimonials as HTML
+  Rendered home/testimonials.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 4ms (Views: 3.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-12-03 20:24:25 -1000
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-12-03 20:24:25 -1000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-12-03 20:24:25 -1000
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at 2014-12-03 20:24:25 -1000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-12-03 20:24:25 -1000
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2014-12-03 20:24:25 -1000
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-12-03 20:24:25 -1000
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-12-03 20:24:25 -1000
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-12-03 20:24:25 -1000
+
+
+Started GET "/" for 127.0.0.1 at 2014-12-03 20:24:26 -1000
+Processing by PagesController#Home as HTML
+  Rendered pages/Home.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 6ms (Views: 4.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/about" for 127.0.0.1 at 2014-12-03 20:24:29 -1000
+Processing by HomeController#about as HTML
+  Rendered home/about.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 7ms (Views: 6.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/services" for 127.0.0.1 at 2014-12-03 20:24:31 -1000
+Processing by HomeController#services as HTML
+  Rendered home/services.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 6ms (Views: 5.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/contact" for 127.0.0.1 at 2014-12-03 20:24:32 -1000
+Processing by HomeController#contact as HTML
+  Rendered home/contact.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 5ms (Views: 4.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/pricing" for 127.0.0.1 at 2014-12-03 20:24:33 -1000
+Processing by HomeController#pricing as HTML
+  Rendered home/pricing.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 5ms (Views: 4.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/testimonials" for 127.0.0.1 at 2014-12-03 20:24:33 -1000
+Processing by HomeController#testimonials as HTML
+  Rendered home/testimonials.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 6ms (Views: 5.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/about" for 127.0.0.1 at 2014-12-03 20:24:45 -1000
+Processing by HomeController#about as HTML
+  Rendered home/about.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 5ms (Views: 4.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/about" for 127.0.0.1 at 2014-12-03 20:25:05 -1000
+Processing by HomeController#about as HTML
+  Rendered home/about.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 5ms (Views: 4.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-12-03 20:25:05 -1000
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-12-03 20:25:05 -1000
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at 2014-12-03 20:25:05 -1000
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-12-03 20:25:05 -1000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-12-03 20:25:05 -1000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-12-03 20:25:05 -1000
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-12-03 20:25:05 -1000
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2014-12-03 20:25:05 -1000
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-12-03 20:25:05 -1000
+
+
+Started GET "/home/about" for 127.0.0.1 at 2014-12-03 20:25:07 -1000
+Processing by HomeController#about as HTML
+  Rendered home/about.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 4ms (Views: 3.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-12-03 20:25:07 -1000
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-12-03 20:25:07 -1000
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-12-03 20:25:07 -1000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-12-03 20:25:07 -1000
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at 2014-12-03 20:25:07 -1000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-12-03 20:25:07 -1000
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-12-03 20:25:07 -1000
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-12-03 20:25:07 -1000
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2014-12-03 20:25:07 -1000
+
+
+Started GET "/home/about" for 127.0.0.1 at 2014-12-03 20:25:08 -1000
+Processing by HomeController#about as HTML
+  Rendered home/about.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 5ms (Views: 4.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-12-03 20:25:08 -1000
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-12-03 20:25:08 -1000
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at 2014-12-03 20:25:08 -1000
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-12-03 20:25:08 -1000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-12-03 20:25:08 -1000
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2014-12-03 20:25:08 -1000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-12-03 20:25:08 -1000
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-12-03 20:25:08 -1000
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-12-03 20:25:08 -1000
+
+
+Started GET "/home/about" for 127.0.0.1 at 2014-12-03 20:25:08 -1000
+Processing by HomeController#about as HTML
+  Rendered home/about.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 4ms (Views: 4.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-12-03 20:25:08 -1000
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-12-03 20:25:08 -1000
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at 2014-12-03 20:25:08 -1000
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-12-03 20:25:08 -1000
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-12-03 20:25:08 -1000
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2014-12-03 20:25:08 -1000
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-12-03 20:25:08 -1000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-12-03 20:25:08 -1000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-12-03 20:25:08 -1000
+
+
+Started GET "/home/about" for 127.0.0.1 at 2014-12-03 20:25:09 -1000
+Processing by HomeController#about as HTML
+  Rendered home/about.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 4ms (Views: 3.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-12-03 20:25:09 -1000
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-12-03 20:25:09 -1000
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at 2014-12-03 20:25:09 -1000
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-12-03 20:25:09 -1000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-12-03 20:25:09 -1000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-12-03 20:25:09 -1000
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-12-03 20:25:09 -1000
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-12-03 20:25:09 -1000
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2014-12-03 20:25:09 -1000
+
+
+Started GET "/home/about" for 127.0.0.1 at 2014-12-03 20:25:10 -1000
+Processing by HomeController#about as HTML
+  Rendered home/about.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 5ms (Views: 4.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-12-03 20:25:10 -1000
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at 2014-12-03 20:25:10 -1000
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-12-03 20:25:10 -1000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-12-03 20:25:10 -1000
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-12-03 20:25:10 -1000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-12-03 20:25:10 -1000
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-12-03 20:25:10 -1000
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2014-12-03 20:25:10 -1000
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-12-03 20:25:10 -1000
+
+
+Started GET "/home/about" for 127.0.0.1 at 2014-12-03 20:34:00 -1000
+Processing by HomeController#about as HTML
+  Rendered home/about.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 4ms (Views: 3.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-12-03 20:34:01 -1000
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at 2014-12-03 20:34:01 -1000
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-12-03 20:34:01 -1000
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-12-03 20:34:01 -1000
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2014-12-03 20:34:01 -1000
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-12-03 20:34:01 -1000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-12-03 20:34:01 -1000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-12-03 20:34:01 -1000
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-12-03 20:34:01 -1000
+
+
+Started GET "/" for 127.0.0.1 at 2014-12-03 20:34:02 -1000
+Processing by PagesController#Home as HTML
+  Rendered pages/Home.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 6ms (Views: 5.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-12-03 20:38:12 -1000
+Processing by PagesController#Home as HTML
+  Rendered pages/Home.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 5ms (Views: 4.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-12-03 20:38:12 -1000
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at 2014-12-03 20:38:12 -1000
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-12-03 20:38:12 -1000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-12-03 20:38:12 -1000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-12-03 20:38:12 -1000
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-12-03 20:38:12 -1000
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-12-03 20:38:12 -1000
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2014-12-03 20:38:12 -1000
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-12-03 20:38:12 -1000
+
+
+Started GET "/home/about" for 127.0.0.1 at 2014-12-03 20:38:14 -1000
+Processing by HomeController#about as HTML
+  Rendered home/about.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 6ms (Views: 5.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/about" for 127.0.0.1 at 2014-12-03 20:53:05 -1000
+Processing by HomeController#about as HTML
+  Rendered home/about.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 4ms (Views: 3.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-12-03 20:53:05 -1000
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at 2014-12-03 20:53:05 -1000
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-12-03 20:53:05 -1000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-12-03 20:53:05 -1000
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-12-03 20:53:05 -1000
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-12-03 20:53:05 -1000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-12-03 20:53:05 -1000
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2014-12-03 20:53:05 -1000
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-12-03 20:53:05 -1000
+
+
+Started GET "/" for 127.0.0.1 at 2014-12-03 20:53:07 -1000
+Processing by PagesController#Home as HTML
+  Rendered pages/Home.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 4ms (Views: 3.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/about" for 127.0.0.1 at 2014-12-03 20:53:08 -1000
+Processing by HomeController#about as HTML
+  Rendered home/about.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 4ms (Views: 3.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/services" for 127.0.0.1 at 2014-12-03 20:53:08 -1000
+Processing by HomeController#services as HTML
+  Rendered home/services.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 6ms (Views: 5.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/contact" for 127.0.0.1 at 2014-12-03 20:53:09 -1000
+Processing by HomeController#contact as HTML
+  Rendered home/contact.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 5ms (Views: 4.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/pricing" for 127.0.0.1 at 2014-12-03 20:53:10 -1000
+Processing by HomeController#pricing as HTML
+  Rendered home/pricing.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 6ms (Views: 5.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/testimonials" for 127.0.0.1 at 2014-12-03 20:53:11 -1000
+Processing by HomeController#testimonials as HTML
+  Rendered home/testimonials.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 5ms (Views: 4.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-12-03 20:53:13 -1000
+Processing by PagesController#Home as HTML
+  Rendered pages/Home.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 4ms (Views: 3.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/testimonials" for 127.0.0.1 at 2014-12-03 20:53:14 -1000
+Processing by HomeController#testimonials as HTML
+  Rendered home/testimonials.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 4ms (Views: 3.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-12-03 21:07:09 -1000
+Processing by PagesController#Home as HTML
+  Rendered pages/Home.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 5ms (Views: 4.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-12-03 21:08:04 -1000
+Processing by PagesController#Home as HTML
+  Rendered pages/Home.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 5ms (Views: 4.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-12-03 21:08:04 -1000
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-12-03 21:08:04 -1000
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at 2014-12-03 21:08:04 -1000
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-12-03 21:08:04 -1000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-12-03 21:08:04 -1000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-12-03 21:08:04 -1000
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-12-03 21:08:04 -1000
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-12-03 21:08:04 -1000
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2014-12-03 21:08:04 -1000
+
+
+Started GET "/" for 127.0.0.1 at 2014-12-03 21:08:15 -1000
+Processing by PagesController#Home as HTML
+  Rendered pages/Home.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 5ms (Views: 4.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/about" for 127.0.0.1 at 2014-12-03 21:08:16 -1000
+Processing by HomeController#about as HTML
+  Rendered home/about.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 5ms (Views: 4.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/services" for 127.0.0.1 at 2014-12-03 21:08:17 -1000
+Processing by HomeController#services as HTML
+  Rendered home/services.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 5ms (Views: 4.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/contact" for 127.0.0.1 at 2014-12-03 21:08:18 -1000
+Processing by HomeController#contact as HTML
+  Rendered home/contact.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 4ms (Views: 3.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/pricing" for 127.0.0.1 at 2014-12-03 21:08:18 -1000
+Processing by HomeController#pricing as HTML
+  Rendered home/pricing.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 5ms (Views: 4.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/testimonials" for 127.0.0.1 at 2014-12-03 21:08:19 -1000
+Processing by HomeController#testimonials as HTML
+  Rendered home/testimonials.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 4ms (Views: 3.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/testimonials" for 127.0.0.1 at 2014-12-03 21:08:31 -1000
+Processing by HomeController#testimonials as HTML
+  Rendered home/testimonials.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 5ms (Views: 4.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-12-03 21:08:31 -1000
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-12-03 21:08:31 -1000
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-12-03 21:08:31 -1000
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-12-03 21:08:31 -1000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-12-03 21:08:31 -1000
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at 2014-12-03 21:08:31 -1000
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-12-03 21:08:31 -1000
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2014-12-03 21:08:31 -1000
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-12-03 21:08:31 -1000
+
+
+Started GET "/" for 127.0.0.1 at 2014-12-03 21:08:36 -1000
+Processing by PagesController#Home as HTML
+  Rendered pages/Home.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 5ms (Views: 4.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/about" for 127.0.0.1 at 2014-12-03 21:08:38 -1000
+Processing by HomeController#about as HTML
+  Rendered home/about.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 4ms (Views: 3.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/services" for 127.0.0.1 at 2014-12-03 21:08:39 -1000
+Processing by HomeController#services as HTML
+  Rendered home/services.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 4ms (Views: 4.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/contact" for 127.0.0.1 at 2014-12-03 21:08:40 -1000
+Processing by HomeController#contact as HTML
+  Rendered home/contact.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 4ms (Views: 3.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/pricing" for 127.0.0.1 at 2014-12-03 21:08:40 -1000
+Processing by HomeController#pricing as HTML
+  Rendered home/pricing.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 4ms (Views: 3.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/testimonials" for 127.0.0.1 at 2014-12-03 21:08:41 -1000
+Processing by HomeController#testimonials as HTML
+  Rendered home/testimonials.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 5ms (Views: 4.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-12-03 21:08:42 -1000
+Processing by PagesController#Home as HTML
+  Rendered pages/Home.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 4ms (Views: 4.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-12-03 21:24:08 -1000
+Processing by PagesController#Home as HTML
+  Rendered pages/Home.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 6ms (Views: 5.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-12-03 21:24:09 -1000
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-12-03 21:24:09 -1000
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-12-03 21:24:09 -1000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-12-03 21:24:09 -1000
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at 2014-12-03 21:24:09 -1000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-12-03 21:24:09 -1000
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-12-03 21:24:09 -1000
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2014-12-03 21:24:09 -1000
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-12-03 21:24:09 -1000
+
+
+Started GET "/home/about" for 127.0.0.1 at 2014-12-03 21:24:10 -1000
+Processing by HomeController#about as HTML
+  Rendered home/about.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 6ms (Views: 5.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/services" for 127.0.0.1 at 2014-12-03 21:24:11 -1000
+Processing by HomeController#services as HTML
+  Rendered home/services.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 4ms (Views: 3.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/contact" for 127.0.0.1 at 2014-12-03 21:24:12 -1000
+Processing by HomeController#contact as HTML
+  Rendered home/contact.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 5ms (Views: 4.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/pricing" for 127.0.0.1 at 2014-12-03 21:24:13 -1000
+Processing by HomeController#pricing as HTML
+  Rendered home/pricing.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 5ms (Views: 4.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/testimonials" for 127.0.0.1 at 2014-12-03 21:24:13 -1000
+Processing by HomeController#testimonials as HTML
+  Rendered home/testimonials.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 4ms (Views: 3.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-12-03 21:24:15 -1000
+Processing by PagesController#Home as HTML
+  Rendered pages/Home.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 4ms (Views: 3.9ms | ActiveRecord: 0.0ms)
