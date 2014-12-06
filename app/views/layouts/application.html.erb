@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>AbsoluteSteamClean</title>
+  <title>Absolute Steam Clean</title>
   <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
   <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
   <%= csrf_meta_tags %>
@@ -9,14 +9,18 @@
 <body>
 	<div class="container">
 		<h1>Absolute Steam Clean</h1>
-		<ul class="nav nav-tabs">
-			<li><%= link_to "Home", root_path %></li>
-			<li><%= link_to "About Us", home_about_path %></li>
-			<li><%= link_to "Services", home_services_path %></li>
-			<li><%= link_to "Contact", home_contact_path %></li>
-			<li><%= link_to "Pricing", home_pricing_path %></li>
-			<li><%= link_to "Testimonials", home_testimonials_path %></li>
-	 	</ul>
+		<div class="navbar navbar-inverse">
+			<div class="navbar-inner">
+				<ul class="nav nav-tabs">
+					<li><%= link_to "Home", root_path %></li>
+					<li><%= link_to "About Us", home_about_path %></li>
+					<li><%= link_to "Services", home_services_path %></li>
+					<li><%= link_to "Contact", home_contact_path %></li>
+					<li><%= link_to "Pricing", home_pricing_path %></li>
+					<li><%= link_to "Testimonials", testimonials_path %></li>
+			 	</ul>
+			 </div>
+		</div>
 	</div>
 
 	<div class="container">	
