@@ -1,7 +1,27 @@
 @import "bootstrap";
 
 body {
-   background:#000;
-   text:white;
+	background: linear-gradient(#FFE2BE, #7F4B1E);
+   	/*background:#7F4B1E;   */
+}
 
+.container{
+	background:#EAEAEA;
+	margin: 0,0,0,0;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-bottom: 600px;
+}
+
+.body-container-text {	
+	/*color:#EAEAEA;*/
+	color:#000;
+}
+
+a {
+	color: #7F6F30;
+}
+
+a.hover {
+	color: #FF8718;
 }

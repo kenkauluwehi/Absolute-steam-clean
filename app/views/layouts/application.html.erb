@@ -1,30 +1,39 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <!-- Title and Icon -->
   <title>Absolute Steam Clean</title>
   <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
   <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
   <%= csrf_meta_tags %>
+  <link rel="Shortcut Icon" href="http://previews.123rf.com/images/jesterarts/jesterarts1203/jesterarts120300001/12803690-green-man-with-steam-cleaner-carpet-wand-extracting-floor.jpg" type="image/x-icon">
+
+  <!-- Search engine metadata -->
+  <meta name="keywords" content="Hawaii Carpet Cleaning, Hawaii Carpet Cleaners, Carpet Cleaning Hawaii, Carpet Cleaners Hawaii, Upholstery Cleaning Hawaii, Furniture Cleaning Hawaii, Absolute Steam Clean, Hawaii Steam Cleaning, Absolute Steam Cleaning, Upholstery Steam Clean">
+  
+  <!-- Phone and tablet scaleability with zoom-->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
 </head>
 <body>
-	<div class="container">
-		<h1>Absolute Steam Clean</h1>
-		<div class="navbar navbar-inverse">
-			<div class="navbar-inner">
-				<ul class="nav nav-tabs">
-					<li><%= link_to "Home", root_path %></li>
-					<li><%= link_to "About Us", home_about_path %></li>
-					<li><%= link_to "Services", home_services_path %></li>
-					<li><%= link_to "Contact", home_contact_path %></li>
-					<li><%= link_to "Pricing", home_pricing_path %></li>
-					<li><%= link_to "Testimonials", testimonials_path %></li>
-			 	</ul>
-			 </div>
-		</div>
-	</div>
 
-	<div class="container">	
-		<%= yield %>
+	<div class="container">
+		<div class="body-container-text">		
+			<h1>Absolute Steam Clean</h1>
+			<div class="navbar nav-tab">
+				<div class="navbar-inner">
+					<ul class="nav nav-tabs">
+						<li role="presentation"><%= link_to "Home", root_path %></li>
+						<li role="presentation" class=""><%= link_to "About Us", home_about_path %></li>
+						<li role="presentation" class=""><%= link_to "Services", home_services_path %></li>
+						<li role="presentation" class=""><%= link_to "Contact", home_contact_path %></li>
+						<li role="presentation" class=""><%= link_to "Pricing", home_pricing_path %></li>
+						<li role="presentation" class=""><%= link_to "Testimonials", testimonials_path %></li>
+				 	</ul>
+				 </div>
+			</div>			
+			<%= yield %>
+		</div>		
 	</div>
 
 </body>
