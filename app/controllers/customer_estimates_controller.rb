@@ -44,7 +44,7 @@ class CustomerEstimatesController < ApplicationController
   def update
     respond_to do |format|
       if @customer_estimate.update(customer_estimate_params)
-        format.html { redirect_to @customer_estimate, notice: 'Customer estimate was successfully updated.' }
+        format.html { redirect_to home_pricing_path, notice: 'Customer estimate was successfully updated.' }
         format.json { head :no_content }
       else
         format.html { render action: 'edit' }
@@ -58,7 +58,7 @@ class CustomerEstimatesController < ApplicationController
   def destroy
     @customer_estimate.destroy
     respond_to do |format|
-      format.html { redirect_to customer_estimates_url }
+      format.html { redirect_to home_pricing_path }
       format.json { head :no_content }
     end
   end
