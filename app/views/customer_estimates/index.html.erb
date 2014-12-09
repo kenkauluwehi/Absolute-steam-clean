@@ -1,0 +1,31 @@
+<h1>Listing customer_estimates</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Email</th>
+      <th>Phone</th>
+      <th></th>
+      <th></th>
+      <th></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @customer_estimates.each do |customer_estimate| %>
+      <tr>
+        <td><%= customer_estimate.name %></td>
+        <td><%= customer_estimate.email %></td>
+        <td><%= customer_estimate.phone %></td>
+        <td><%= link_to 'Show', customer_estimate %></td>
+        <td><%= link_to 'Edit', edit_customer_estimate_path(customer_estimate) %></td>
+        <td><%= link_to 'Destroy', customer_estimate, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Customer estimate', new_customer_estimate_path %>

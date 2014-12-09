@@ -1,4 +1,6 @@
 AbsoluteSteamClean::Application.routes.draw do
+  resources :customer_estimates
+
   resources :testimonials
 
   get "home/about"
