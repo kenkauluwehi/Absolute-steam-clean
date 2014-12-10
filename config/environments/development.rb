@@ -32,9 +32,9 @@ AbsoluteSteamClean::Application.configure do
   config.action_mailer.stmp_settings = {
   :address                => "smtp.sendgrid.net",
   :port                   => 587,
-  :domain                 => "heroku.com",
-  :user_name              => ENV['SENDGRID_USERNAME'],
-  :password               => ENV['SENDGRID_PASSWORD'],
+  :domain                 => "gmail.com",
+  :user_name              => "kenkauluwehi@gmail.com",
+  :password               => "K1k@1da0112!@Aa",
   :authentication         => "plain",
   :enable_starttls_auto   => true
   } 
