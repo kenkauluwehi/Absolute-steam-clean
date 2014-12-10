@@ -33,6 +33,7 @@ class CustomerEstimatesController < ApplicationController
         format.html { redirect_to home_pricing_path, notice: 'Customer estimate was successfully created.' }
         format.json { render action: 'show', status: :created, location: @customer_estimate }
       else
+        format.html { redirect_to home_pricing_path, notice: 'Customer estimate was unsuccessfully created. REJECTED.' }
         format.html { render action: 'new' }
         format.json { render json: @customer_estimate.errors, status: :unprocessable_entity }
       end

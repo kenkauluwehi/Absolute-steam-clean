@@ -21547,3 +21547,264 @@ Started GET "/assets/testimonials.js?body=1" for 127.0.0.1 at 2014-12-08 20:52:4
 
 
 Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-12-08 20:52:46 -1000
+
+
+Started GET "/" for 127.0.0.1 at 2014-12-09 00:33:55 -1000
+  [1m[36mActiveRecord::SchemaMigration Load (3.7ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by PagesController#Home as HTML
+  Rendered pages/Home.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 202ms (Views: 184.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2014-12-09 00:33:55 -1000
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-12-09 00:33:55 -1000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-12-09 00:33:55 -1000
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-12-09 00:33:55 -1000
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 127.0.0.1 at 2014-12-09 00:33:55 -1000
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 127.0.0.1 at 2014-12-09 00:33:55 -1000
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2014-12-09 00:33:55 -1000
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 127.0.0.1 at 2014-12-09 00:33:55 -1000
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2014-12-09 00:33:55 -1000
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 127.0.0.1 at 2014-12-09 00:33:55 -1000
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2014-12-09 00:33:55 -1000
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 127.0.0.1 at 2014-12-09 00:33:55 -1000
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2014-12-09 00:33:56 -1000
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2014-12-09 00:33:56 -1000
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 127.0.0.1 at 2014-12-09 00:33:56 -1000
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2014-12-09 00:33:56 -1000
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-12-09 00:33:56 -1000
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-12-09 00:33:56 -1000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-12-09 00:33:56 -1000
+
+
+Started GET "/assets/customer_estimates.js?body=1" for 127.0.0.1 at 2014-12-09 00:33:56 -1000
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2014-12-09 00:33:56 -1000
+
+
+Started GET "/assets/testimonials.js?body=1" for 127.0.0.1 at 2014-12-09 00:33:56 -1000
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-12-09 00:33:56 -1000
+
+
+Started GET "/home/about" for 127.0.0.1 at 2014-12-09 00:34:22 -1000
+Processing by HomeController#about as HTML
+  Rendered home/about.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 9ms (Views: 8.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/services" for 127.0.0.1 at 2014-12-09 00:34:23 -1000
+Processing by HomeController#services as HTML
+  Rendered home/services.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 9ms (Views: 8.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/contact" for 127.0.0.1 at 2014-12-09 00:34:45 -1000
+Processing by HomeController#contact as HTML
+  Rendered home/contact.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 12ms (Views: 10.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/contact" for 127.0.0.1 at 2014-12-09 00:34:59 -1000
+Processing by HomeController#contact as HTML
+  Rendered home/contact.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 9ms (Views: 8.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/pricing" for 127.0.0.1 at 2014-12-09 00:35:01 -1000
+Processing by HomeController#pricing as HTML
+  Rendered home/pricing.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 9ms (Views: 8.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/customer_estimates/new" for 127.0.0.1 at 2014-12-09 00:35:05 -1000
+Processing by CustomerEstimatesController#new as HTML
+  Rendered customer_estimates/_form.html.erb (66.6ms)
+  Rendered customer_estimates/new.html.erb within layouts/application (71.9ms)
+Completed 200 OK in 87ms (Views: 80.2ms | ActiveRecord: 2.9ms)
+
+
+Started POST "/customer_estimates" for 127.0.0.1 at 2014-12-09 00:35:15 -1000
+Processing by CustomerEstimatesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"76pOvxCehS83C+14uIEQJRMZ9vyX5lnQsAEEDYDIn4Y=", "customer_estimate"=>{"name"=>"Ken Kauluwehi", "email"=>"kenkauluwehi@gmail.com", "phone"=>"8086963911"}, "commit"=>"Create Customer estimate"}
+  [1m[35m (0.8ms)[0m  BEGIN
+  [1m[36mSQL (8.1ms)[0m  [1mINSERT INTO "customer_estimates" ("created_at", "email", "name", "phone", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["created_at", Tue, 09 Dec 2014 10:35:15 UTC +00:00], ["email", "kenkauluwehi@gmail.com"], ["name", "Ken Kauluwehi"], ["phone", "8086963911"], ["updated_at", Tue, 09 Dec 2014 10:35:15 UTC +00:00]]
+  [1m[35m (1.8ms)[0m  COMMIT
+  Rendered user_mailer/estimation_confirmation.text.erb (0.7ms)
+
+Sent mail to kenkauluwehi@gmail.com (3428.0ms)
+Date: Tue, 09 Dec 2014 00:35:15 -1000
+From: from@example.com
+To: kenkauluwehi@gmail.com
+Message-ID: <5486d0638e7e1_79223fcd518f35647274b@Kens-MacBook-Air-2.local.mail>
+Subject: Estimation
+Mime-Version: 1.0
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+New estimation wanted
+
+Customer name
+Ken Kauluwehi
+
+Customer Phone
+8086963911
+
+Customer Email
+kenkauluwehi@gmail.com
+
+
+  Rendered user_mailer/estimation_confirmation_to_user.text.erb (0.4ms)
+
+Sent mail to kenkauluwehi@gmail.com (3209.5ms)
+Date: Tue, 09 Dec 2014 00:35:19 -1000
+From: from@example.com
+To: kenkauluwehi@gmail.com
+Message-ID: <5486d0674bd3_79223fcd518f35647289e@Kens-MacBook-Air-2.local.mail>
+Subject: Estimation
+Mime-Version: 1.0
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+Aloha Ken Kauluwehi,
+
+Thank you for taking advantage of our free estimate offer. Our sales teams has recived your request and will get back to you as soon as possible.
+
+Mahalo
+Absolute Steam Clean
+Redirected to http://0.0.0.0:3000/home/pricing
+Completed 302 Found in 6688ms (ActiveRecord: 10.8ms)
+
+
+Started GET "/home/pricing" for 127.0.0.1 at 2014-12-09 00:35:22 -1000
+Processing by HomeController#pricing as HTML
+  Rendered home/pricing.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 38ms (Views: 38.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-12-09 00:35:22 -1000
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 127.0.0.1 at 2014-12-09 00:35:22 -1000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-12-09 00:35:22 -1000
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-12-09 00:35:22 -1000
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 127.0.0.1 at 2014-12-09 00:35:22 -1000
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2014-12-09 00:35:22 -1000
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2014-12-09 00:35:22 -1000
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2014-12-09 00:35:22 -1000
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2014-12-09 00:35:22 -1000
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2014-12-09 00:35:22 -1000
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 127.0.0.1 at 2014-12-09 00:35:22 -1000
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 127.0.0.1 at 2014-12-09 00:35:22 -1000
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2014-12-09 00:35:22 -1000
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 127.0.0.1 at 2014-12-09 00:35:22 -1000
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2014-12-09 00:35:22 -1000
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 127.0.0.1 at 2014-12-09 00:35:22 -1000
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-12-09 00:35:22 -1000
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-12-09 00:35:22 -1000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-12-09 00:35:22 -1000
+
+
+Started GET "/assets/customer_estimates.js?body=1" for 127.0.0.1 at 2014-12-09 00:35:22 -1000
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2014-12-09 00:35:22 -1000
+
+
+Started GET "/assets/testimonials.js?body=1" for 127.0.0.1 at 2014-12-09 00:35:22 -1000
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-12-09 00:35:22 -1000
+
+
+Started GET "/testimonials" for 127.0.0.1 at 2014-12-09 00:36:23 -1000
+Processing by TestimonialsController#index as HTML
+  [1m[36mTestimonial Load (1.3ms)[0m  [1mSELECT "testimonials".* FROM "testimonials"[0m
+  Rendered testimonials/index.html.erb within layouts/application (24.5ms)
+Completed 200 OK in 36ms (Views: 29.9ms | ActiveRecord: 2.8ms)
+
+
+Started GET "/home/pricing" for 127.0.0.1 at 2014-12-09 08:43:29 -1000
+Processing by HomeController#pricing as HTML
+  Rendered home/pricing.html.erb within layouts/application (9.3ms)
+Completed 200 OK in 182ms (Views: 139.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-12-09 08:51:07 -1000
+Processing by PagesController#Home as HTML
+  Rendered pages/Home.html.erb within layouts/application (5.5ms)
+Completed 200 OK in 353ms (Views: 350.1ms | ActiveRecord: 0.0ms)
